@@ -1,7 +1,7 @@
-<!-- <?php 
+<?php 
   require('connection.php');
   session_start(); 
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +73,7 @@
     </div>
   </div>
   
-<!--   <?php
+  <?php
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
     {
         echo"<h1 style='text-align: center; margin-top: 200px'> WELCOME TO THIS WEBSITE - $_SESSION[username]</h1>";
@@ -92,7 +92,7 @@
         get_popup.style.display="flex";
       }
     }
-  </script> -->
+  </script>
 
 </body>
 </html>
